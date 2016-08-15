@@ -5,17 +5,101 @@
 	<title>John F. Kennedy Tribute Page</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<style type="text/css">
+		body{
+			background-color: #3B3B3B;
+			font-family: Georgia;
+		}
 		.container{
 			margin-top: 25px;
+
 		}
+
+		.jumbotron{
+			background-color: #E6A65E;
+		}
+
+		.row{
+			margin-top: 20px;
+		}
+
+		.personal-info li{
+			margin-bottom: 7px;
+			list-style-type: none;
+			font-size: 
+		}
+
+		.quote{
+			margin-bottom: 30px;
+		}
+
+		.summary p{
+			font-size: 23px;
+		}
+
 	</style>
 </head>
 <body>
 	<div class="container">
 	  <div class="jumbotron">
-	    <h1 class="text-center"><strong>John F. Kennedy</strong></h1>
-	    <h2 class="text-center">35th President of the United States</h2>
-	    <h4 class="text-center">May 29, 1917 - November 22, 1963</h4>
+	    <div class="text-center">
+	  		<h1><strong>John F. Kennedy</strong></h1>
+		    <h2>35th President of the United States</h2>
+		  </div>
+		  <div class="row">  
+		  	<div class="text-center col-xs-7">
+		  		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/JFK_WHPO.tif/lossy-page1-376px-JFK_WHPO.tif.jpg">
+		  	</div>
+		    <div class="col-xs-5">
+		    	<h4 class="text-center">Personal Information</h4>
+		    	<dl class="personal-info">
+		    		<ul>
+		    			<li>
+				    		<dt>Born</dt>
+				    		<dd>May 29, 1917</dd>
+			    		</li>
+							<li>
+								<dt>Died</dt>
+				    		<dd>November 22, 1963 (assassinated)</dd>
+							</li>
+							<li>	
+								<dt>Political Party</dt>
+					    	<dd>Democratic</dd>
+							</li>
+							<li>
+								<dt>Term In Office</dt>
+			    			<dd>January 20, 1961 - November 22, 1963</dd>
+							</li>
+			    		<li>
+			    			<dt>Preceded By</dt>
+								<dd>Dwight D. Eisenhower</dd>
+			    		</li>
+							<li>
+								<dt>Succeeded By</dt>
+								<dd>Lyndon B. Johnson</dd>
+							</li>
+							<li>
+								<dt>Spouse</dt>
+								<dd>Jacqueline Kennedy</dd>
+							</li>
+							<li>
+								<dt>Children</dt>
+								<dd>Caroline Kennedy</dd>
+								<dd>John F. Kennedy Jr.</dd>
+								<dd>Patrick Bouvier Kennedy</dd>
+							</li>
+						</ul>
+		    	</dl>
+		    </div>
+  		</div>
+  		<div class="row summary">
+  				<div class="text-center quote">
+  					<h4><em>"Ask not what your country can do for you, but what you can do for your country."</em> <strong>- John F. Kennedy</strong></h4>
+					</div>
+					<div class="col-xs-10 col-xs-offset-1">
+
+  				</div>
+  		</div>
+	    </div>
 	  </div>
 	</div>
 </body>
